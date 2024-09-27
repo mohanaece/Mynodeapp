@@ -7,6 +7,7 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
   res.end('Hello, World test 1!\n');
+  res.end('Checking if local changes are pushed to git!\n');
 });
 
 server.listen(port, hostname, () => {
