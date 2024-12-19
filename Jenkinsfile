@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    tools {nodejs : "Nodejsplugin"}
+    tools {nodejs  "Nodejsplugin"}
     stages {
         stage('Build') { 
             steps {
