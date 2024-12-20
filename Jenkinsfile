@@ -6,6 +6,10 @@ pipeline {
             steps {
                 sh 'npm install' 
             }
+	stage('deployrun') {
+            steps {
+                sh 'node app.js'
+            }
         }
     }
 }
