@@ -8,6 +8,7 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/plain');
   res.end('Hello, World Mohana for git test!\n');
   res.end('Checking if local changes are pushed to git!\n');
+  res.end('Hello, World Mohana for git branch!\n');
 });
 
 server.listen(port, hostname, () => {
